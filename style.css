@@ -1,18 +1,29 @@
-body, html {
+html, body {
     height: 100%;
+    min-height: 100vh;
 }
 
 body {
-   background: linear-gradient(130deg,white,rgb(228, 227, 227));
+   background-color: salmon;
    background-repeat: no-repeat;
    background-size: 100% 100%;
+   position: relative;
 }
 
 footer {
+    position: absolute;
     height: 5vh;
     width: 100vw;
-    position: fixed;
-    bottom: 0px;
+    bottom: 0;
     /* background-color: gray; */
     color: white;
+}
+
+.portfolio-wrapper {
+    background-color: white;
+    margin: 5vh 2vw;
+}
+
+.portfolio-img {
+    margin: 5px;
 }
