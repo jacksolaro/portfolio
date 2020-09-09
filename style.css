@@ -12,9 +12,13 @@ body {
 footer {
     position: absolute;
     height: 5vh;
-    width: 100vw;
+    width: 100%;
     bottom: 0;
     color: white;
+}
+
+h1 {
+    padding: .5rem;
 }
 
 .content-wrapper {
