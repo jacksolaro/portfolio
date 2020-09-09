@@ -17,20 +17,17 @@ footer {
     color: white;
 }
 
-h1 {
-    padding: .5rem;
-}
-
 .content-wrapper {
     background-color: white;
     margin: 5vh 2vw;
-    padding: 10px;
+    padding: 20px;
 }
+
+/* .portfolio-img-box {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+} */
 
 .portfolio-img {
-    margin: 5px;
-}
-
-.bio-img {
-    margin: 5px;
+    width: 100%;
 }
