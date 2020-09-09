@@ -5,8 +5,10 @@ html {
 }
 
 body {
-   background-color: gray;
+   background: url(assets/images/joanna-kosinska-mjC9apK53a8-unsplash.jpg);
+   background-size: cover;
    background-repeat: no-repeat;
+   background-attachment: fixed;
    margin-bottom: 5vh;
 }
 
@@ -38,3 +40,15 @@ footer {
 .portfolio-img {
     width: 100%;
 }
+
+.bio-img {
+    width: 50%;
+}
+
+@media only screen and (max-width: 400px) {
+    .bio-img {
+        width: 100%;
+    }
+}
+
+
