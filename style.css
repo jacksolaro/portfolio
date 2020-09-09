@@ -1,20 +1,27 @@
-html, body {
-    min-height: 100vh;
+html {
+    min-height: 100%;
+    position: relative;
+    display: block;
 }
 
 body {
-   background-color: salmon;
+   background-color: gray;
    background-repeat: no-repeat;
-   /* background-size: 100% 100%; */
-   position: relative;
+   margin-bottom: 5vh;
 }
 
 footer {
     position: absolute;
-    height: 5vh;
+    height: 6vh;
     width: 100%;
     bottom: 0;
     color: white;
+}
+
+.footer-accent {
+    background: linear-gradient(90deg,red,orange,purple);
+    height: 1vh;
+    margin-bottom: 1vh;
 }
 
 .content-wrapper {
