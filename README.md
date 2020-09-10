@@ -1,6 +1,7 @@
 # Jack Solaro - Portfolio Site
-**GitHub Repo:**
-**GitHub Pages Link:**
+**GitHub Repo:** https://github.com/jacksolaro/portfolio
+
+**GitHub Pages Link:** https://jacksolaro.github.io/portfolio/
 
 ## About the project
 This portfolio site is a responsive site that will be used to store future portfolio projects and showcase my work.
