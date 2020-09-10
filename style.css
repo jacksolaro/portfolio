@@ -9,7 +9,7 @@ html {
 }
 
 body {
-   background: url(https://github.com/jacksolaro/portfolio/blob/master/Assets/images/joanna-kosinska-mjC9apK53a8-unsplash.jpg?raw=true);
+   background: url("/Assets/images/joanna-kosinska-mjC9apK53a8-unsplash.jpg");
    background-size: cover;
    background-repeat: no-repeat;
    background-attachment: fixed;
