@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
+    <title>Contact</title>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -15,21 +15,23 @@
     <header>
         <!-- Nav Bar -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <!-- Logo on Nav Bar (Top Left) -->
             <a class="navbar-brand" href="index.html">JACK SOLARO</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <!-- Nav Links (Top Right) -->
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">CONTACT<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">About</a>
+                        <a class="nav-link" href="index.html">ABOUT</a>
                     </li>
                 </ul>
             </div>
@@ -40,30 +42,34 @@
     <main>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-9 content-wrapper">
+                <div class="col-md-9 content-wrapper">
                     <!-- Contact Form -->
                     <form>
                         <h1>Contact</h1>
                         <hr>
+                        <!-- Name Input Field -->
                         <div class="form-group">
                             <label for="exampleInputEmail1">Name</label>
                             <input type="text" class="form-control" id="contactName" aria-describedby="contactName">
                         </div>
+                        <!-- Email Address Input Field -->
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
                             <input type="email" class="form-control" id="contactEmail" aria-describedby="contactEmail">
                             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                                 else.</small>
                         </div>
+                        <!-- Custom Message Input Field -->
                         <div class="form-group">
                             <label for="exampleFormControlTextarea1">Message</label>
                             <textarea class="form-control" id="contactMessage" rows="3"></textarea>
                         </div>
+                        <!-- Submit Button -->
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
                 </div>
             </div>
-            <div class="col-lg-3"></div>
+            <div class="col-md-3"></div>
         </div>
 
     </main>
