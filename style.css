@@ -1,3 +1,7 @@
+/* ========================================
+GLOBAL STYLING
+======================================== */
+
 * {
     font-family: 'Overpass', sans-serif;
 }
@@ -16,6 +20,77 @@ body {
    margin-bottom: 5vh;
 }
 
+h2 {
+    font-size: 1.25em;
+}
+
+
+.content-wrapper {
+    background-color: white;
+    margin: 5vh 2vw;
+    padding: 20px;
+}
+
+/* ========================================
+NAV STYLING
+======================================== */
+.navbar-custom {
+    background-color: #454545;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: white;
+}
+
+/* ========================================
+HOME DIV STYLING
+======================================== */
+.home-container {
+    height: 80vh;
+    background-color: #454545;
+}
+
+.home-header {
+    color: white;
+    font-size: 80px;
+}
+
+.home-description {
+    color: white;
+    font-size: 20px;
+}
+
+
+
+/* ========================================
+ABOUT ME STYLING
+======================================== */
+
+/* StrengthFinders Card Title */
+.strengthTitle {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+@media only screen and (max-width: 500px) {
+    .bio-img {
+        width: 100%;
+    }
+}
+
+/* ========================================
+PORTFOLIO CONTENT STYLING
+======================================== */
+.portfolio-img {
+    width: 100%;
+}
+
+
+/* ========================================
+FOOTER STYLING
+======================================== */
+
 footer {
     position: absolute;
     height: 6vh;
@@ -28,36 +103,6 @@ footer {
     background: linear-gradient(90deg,red,orange,purple);
     height: 1vh;
     margin-bottom: 1vh;
-}
-
-.content-wrapper {
-    background-color: white;
-    margin: 5vh 2vw;
-    padding: 20px;
-}
-
-/* .portfolio-img-box {
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-} */
-
-.portfolio-img {
-    width: 100%;
-}
-
-h2 {
-    font-size: 1.25em;
-}
-
-.strengthTitle {
-    font-weight: bold;
-    font-size: 1.25em;
-}
-
-@media only screen and (max-width: 500px) {
-    .bio-img {
-        width: 100%;
-    }
 }
 
 
