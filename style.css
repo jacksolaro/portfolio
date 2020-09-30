@@ -67,7 +67,7 @@ HOME DIV STYLING
 ======================================== */
 .home-container {
     height: 80vh;
-    background-image: url("assets/images/trees_background.jpg");
+    background-image: url("https://github.com/jacksolaro/portfolio/blob/dev/Assets/images/trees_background.jpg?raw=true");
     background-size: cover;
 }
 
