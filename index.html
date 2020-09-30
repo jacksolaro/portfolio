@@ -5,11 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
-    <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <!-- <link rel="stylesheet" href="reset.css"> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8c18c4ca72.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -29,7 +35,7 @@
                         <a class="nav-link" href="contact.html">CONTACT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+                        <a class="nav-link" href="#portfolio-section">PORTFOLIO</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="#">ABOUT<span class="sr-only">(current)</span></a>
@@ -39,99 +45,146 @@
         </nav>
     </header>
 
+    <!-- HOME PAGE -->
     <div class="container-fluid home-container">
         <div class="row h-100 text-center">
             <div class="col-md-12 h-50 my-auto">
-                <h1 class="home-header text-center">Hi - I'm Jack</h1>
+                <h1 class="display-1 text-center text-white"><strong>Hi - I'm Jack</strong></h1>
                 <p class="home-description">I like long walks on the beach and designing user centric applications.</p>
-                <button type="button" class="btn btn-light">See My Work</button>
+                <a href="#portfolio-section" class="btn btn-light">See My Work</a>
             </div>
         </div>
     </div>
 
-    <!-- About Me Card -->
-    <main>
-        <div class="container-fluid">
-            <div class="row">
-                <section class="col-md-8 content-wrapper">
-                    <h1>About Me</h1>
-                    <hr>
-                    <!-- About Me Bio Image -->
-                    <img src="Assets/images/bio_pic.jpg" alt="" class="rounded float-left bio-img pr-3">
-                    <!-- About Me Bio Header -->
-                    <h2><strong>Hi - I'm Jack and I am a Technical / Creative diachotomy!</strong></h2>
-                    <!-- About Me Bio Paragraph, Wraps around About Me Bio Image as screen size decreases -->
-                    <p>
-                        I am a Web Developer with UX and Project/Program Management experience. I take pride in developing creative solutions to complex problems! 
-                        <br><br>
-                        Outside of work, I am an avid photographer. My work varies from fashion and lifestyle to conceptual and surrealistic portraiture. I love to take an idea from a concept to an actual visualization! 
-                        <br><br>
-                        I am very passionate about the <a href="https://www.gallup.com/cliftonstrengths/en/252137/home.aspx">CliftonStrengths Assessment</a>  provided by Gallup. CliftonStrengths is a strengths assessment designed to help people uncover and leverage their strengths. My top 5 are: 
-                    </p>
-
-                    <!-- StrengthFinders Cards -->
-                    <div class="row justify-content-md-center">
-                
-                        <!-- Achiever Card -->
-                        <div class="col-lg-12 col-md-12 strengthCard">
-                            <div class="row">
-                                <div class="col-md-12 strengthTitle">
-                                    1. Achiever
-                                </div>
-                                <div class="col-md-12 strengthContent mb-2">
-                                    People exceptionally talented in the Achiever theme work hard and possess a great deal of stamina. They take immense satisfaction in being <strong>busy and productive</strong>.
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Ideation Card -->
-                        <div class="col-lg-12 col-md-12 strengthCard">
-                            <div class="row">
-                                <div class="col-md-12 strengthTitle">
-                                    2. Ideation
-                                </div>
-                                <div class="col-md-12 strengthContent mb-2">
-                                    People exceptionally talented in the Ideation theme are <strong>fascinated by ideas</strong>. They are able to find connections between seemingly disparate phenomena.
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Strategic Card -->
-                        <div class="col-lg-12 col-md-12 strengthCard">
-                            <div class="row">
-                                <div class="col-md-12 strengthTitle">
-                                    3. Strategic
-                                </div>
-                                <div class="col-md-12 strengthContent mb-2">
-                                    People exceptionally talented in the Strategic theme create alternative ways to proceed. Faced with any given scenario, they can <strong>quickly spot the relevant patterns and issues</strong>.
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Individualization Card -->
-                        <div class="col-lg-12 col-md-12 strengthCard">
-                            <div class="row">
-                                <div class="col-md-12 strengthTitle">
-                                    4. Individualization
-                                </div>
-                                <div class="col-md-12 strengthContent mb-2">
-                                    People exceptionally talented in the Individualization theme are intrigued with the unique qualities of each person. They have a gift for figuring out <strong>how different people can work together productively</strong>.
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Restorative Card -->
-                        <div class="col-lg-12 col-md-12 strengthCard">
-                            <div class="row">
-                                <div class="col-md-12 strengthTitle">
-                                    5. Restorative
-                                </div>
-                                <div class="col-md-12 strengthContent mb-2">
-                                    People exceptionally talented in the Restorative theme are adept at <strong>dealing with problems</strong>. They are good at figuring out what is wrong and resolving it.
-                                </div>
-                            </div>
-                        </div>
+    <!-- PORTFOLIO SECTION -->
+    <div id="portfolio-section" class="container-fluid bg-light pt-2">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <h2 class="display-4 text-center pt-5"><strong>PORTFOLIO HIGHLIGHTS</strong></h2>
+                <hr>
+            </div>
+            <div class="col-md-4 p-3">
+                <div class="card bg-dark text-white">
+                    <img class="card-img" src="assets/images/portfolio_city_scoop_app.png" alt="Card image">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">City Scoop</h5>
+                        <p class="card-text">Looking to get data on a major metropolital city? Look no further, here's the scoop!</p>
+                        <a href="https://github.com/jacksolaro/CityScoop" class="btn btn-light">Github Repo</a>
+                        <a href="https://jacksolaro.github.io/CityScoop/" class="btn btn-light">Deployed Application</a>
                     </div>
-                </section>
+                </div>
+            </div>
+            <div class="col-md-4 p-3">
+                <div class="card bg-dark text-white">
+                    <img class="card-img" src="assets/images/portfolio_trivia_app.png" alt="Card image">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Trivia Application</h5>
+                        <p class="card-text">Try out this trivia application that I made from scratch using Javascript and Bootstrap!</p>
+                        <a href="https://github.com/jacksolaro/trivia" class="btn btn-light">Github Repo</a>
+                        <a href="https://jacksolaro.github.io/trivia/" class="btn btn-light">Deployed Application</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-3">
+                <div class="card bg-dark text-white">
+                    <img class="card-img" src="assets/images/portfolio_planner_app.png" alt="Card image">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Planner Application</h5>
+                        <p class="card-text">What's the plan? Find out in this application that I built using jquery and Bootstrap!</p>
+                        <a href="https://github.com/jacksolaro/planner-app" class="btn btn-light">Github Repo</a>
+                        <a href="https://jacksolaro.github.io/planner-app/" class="btn btn-light">Deployed Application</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 pt-3 pb-5">
+                <!-- Unhide and Link when have more projects to show on a portfolio page -->
+                <!-- <button type="button" class="btn btn-dark">See All Work</button> -->
             </div>
         </div>
-    </main>
+    </div>
+
+    <!-- ABOUT ME SECTION -->
+    <div class="container-fluid bg-info text-white p-4">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <h2 class="display-4 text-center pt-5"><strong>ABOUT ME</strong></h2>
+                <hr>
+            </div>
+            <div class="col-lg-3">
+                <!-- About Me Bio Image -->
+                <img src="Assets/images/bio_pic.jpg" alt="" class="rounded float-left bio-img pr-3">
+            </div>
+            <div class="col-lg-9 text-left">
+                <!-- About Me Bio Header -->
+                <h2><strong>Hi - I'm Jack and I am a Technical / Creative diachotomy!</strong></h2>
+                <!-- About Me Bio Paragraph, Wraps around About Me Bio Image as screen size decreases -->
+                <a href="https://github.com/jacksolaro" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+                <a href="https://www.linkedin.com/in/jacksolaro/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+                <p>
+                    I am a Web Developer with UX and Project/Program Management experience. I take pride in
+                    developing creative solutions to complex problems!
+                    <br><br>
+                    Outside of work, I am an avid photographer. My work varies from fashion and lifestyle to
+                    conceptual and surrealistic portraiture. I love to take an idea from a concept to
+                    visualization!
+                    <br><br>
+                    I am very passionate about the <a
+                        href="https://www.gallup.com/cliftonstrengths/en/252137/home.aspx">CliftonStrengths
+                        Assessment</a> provided by Gallup. CliftonStrengths is a strengths assessment designed to
+                    help people uncover and leverage their strengths. Below you can see my top 5 strengths. 
+                </p>
+                <div class="row center d-flex justify-content-around">
+                    <div class="col-md-12 text-center">
+                        <h3>My Top Strengths</h3>
+                    </div>
+
+                    <div class="col-md-4 col-lg-2 border rounded pt-4 pr-3 pl-3 text-center">
+                        <i class="fas fa-check-double fa-5x"></i>
+                        <h5 class="strengthTitle">1. ACHIEVER</h5>
+                        <p class="text-left">Lots of stamina! Takes immense satisfaction in being <strong>busy and
+                                productive</strong>.</p>
+                    </div>
+
+
+                    <div class="col-md-4 col-lg-2 border rounded pt-4 pr-3 pl-3 text-center b">
+                        <i class="fas fa-lightbulb fa-5x"></i>
+                        <h5 class="strengthTitle">2. IDEATION</h5>
+                        <p class="text-left">Fascinated by ideas! Able to find connections between seemingly disparate phenomena.
+                        </p>
+                    </div>
+
+
+                    <div class="col-md-4 col-lg-2 border rounded pt-4 pr-3 pl-3 text-center ">
+                        <i class="fas fa-chess-pawn fa-5x"></i>
+                        <h5 class="strengthTitle">3. STRATEGIC</h5>
+                        <p class="text-left">Create alternative ways to proceed! Faced with any given scenario, can quickly spot
+                            the relevant patterns and issues.</p>
+                    </div>
+
+
+                    <div class="col-md-4 col-lg-2 border rounded pt-4 pr-3 pl-3 text-center b">
+                        <i class="fas fa-users fa-5x"></i>
+                        <h5 class="strengthTitle">4. INDIVIDUALIZATION</h5>
+                        <p class="text-left">Intrigued with the unique qualities of each person! Has a gift for figuring out how
+                            different people can work together productively.</p>
+                    </div>
+
+
+                    <div class="col-md-4 col-lg-2 border rounded pt-4 pr-3 pl-3 text-center">
+                        <i class="fas fa-wrench fa-5x"></i>
+                        <h5 class="strengthTitle">5. RESTORATIVE</h5>
+                        <p class="text-left">Adept at dealing with problems! Good at figuring out what is wrong and resolving it.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+   
+
 
     <!-- Footer -->
     <footer class="navbar-dark bg-dark">

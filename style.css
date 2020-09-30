@@ -20,15 +20,33 @@ body {
    margin-bottom: 5vh;
 }
 
-h2 {
-    font-size: 1.25em;
-}
-
-
 .content-wrapper {
     background-color: white;
-    margin: 5vh 2vw;
+    /* margin: 5vh 2vw; */
     padding: 20px;
+}
+
+/* -- BACKGROUND STYLES -- */
+.bg-custom-pink {
+    background-color: #f06C9B
+}
+.bg-custom-orange {
+    background-color: #F6ae2d
+}
+.bg-custom-green {
+    background-color: #60A561
+}
+.bg-custom-blue {
+    background-color: #62bec1
+}
+.bg-custom-pink {
+    background-color: #f06C9B
+}
+.bg-custom-yellow {
+    background-color: #fff275
+}
+.bg-custom-onyx {
+    background-color: #444444
 }
 
 /* ========================================
@@ -36,6 +54,7 @@ NAV STYLING
 ======================================== */
 .navbar-custom {
     background-color: #454545;
+    /* background-image: url("assets/images/26298432627_592cdc0d99_o.jpg"); */
 }
 
 .navbar-custom .navbar-brand,
@@ -48,7 +67,8 @@ HOME DIV STYLING
 ======================================== */
 .home-container {
     height: 80vh;
-    background-color: #454545;
+    background-image: url("assets/images/trees_background.jpg");
+    background-size: cover;
 }
 
 .home-header {
@@ -67,10 +87,8 @@ HOME DIV STYLING
 ABOUT ME STYLING
 ======================================== */
 
-/* StrengthFinders Card Title */
-.strengthTitle {
-    font-weight: bold;
-    font-size: 1.25em;
+.bio-img {
+    width: 100%
 }
 
 @media only screen and (max-width: 500px) {
@@ -80,10 +98,25 @@ ABOUT ME STYLING
 }
 
 /* ========================================
+MY STRENGTHS STYLING
+======================================== */
+
+/* StrengthFinders Card Title */
+.strengthTitle {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+
+/* ========================================
 PORTFOLIO CONTENT STYLING
 ======================================== */
 .portfolio-img {
     width: 100%;
+}
+
+.card-img-overlay {
+    background: rgba(0, 0, 0, 0.8);
 }
 
 
