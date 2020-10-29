@@ -3,7 +3,7 @@ GLOBAL STYLING
 ======================================== */
 
 * {
-    font-family: 'Overpass', sans-serif;
+    font-family: 'Kanit', sans-serif;
 }
 
 html {
@@ -24,6 +24,23 @@ body {
     background-color: white;
     /* margin: 5vh 2vw; */
     padding: 20px;
+}
+
+a {
+    color:blue;
+}
+
+/* Headers */
+h1 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: bolder;
+    font-size: 64px;
+}
+
+h2 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
 }
 
 /* -- BACKGROUND STYLES -- */
