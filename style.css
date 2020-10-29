@@ -27,7 +27,10 @@ body {
 }
 
 a {
-    color:blue;
+    color:#08A4BD;
+}
+a:hover {
+    color:#FB3640;
 }
 
 /* Headers */
